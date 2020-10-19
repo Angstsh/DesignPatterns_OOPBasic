@@ -1,0 +1,10 @@
+D:\A_Code\B_Git\GIT\DesignPatterns\objectoriented\ObjectOriented\bin\Debug\ObjectOriented.exe.config
+D:\A_Code\B_Git\GIT\DesignPatterns\objectoriented\ObjectOriented\bin\Debug\ObjectOriented.exe
+D:\A_Code\B_Git\GIT\DesignPatterns\objectoriented\ObjectOriented\bin\Debug\ObjectOriented.pdb
+D:\A_Code\B_Git\GIT\DesignPatterns\objectoriented\ObjectOriented\obj\Debug\ObjectOriented.csprojAssemblyReference.cache
+D:\A_Code\B_Git\GIT\DesignPatterns\objectoriented\ObjectOriented\obj\Debug\ObjectOriented.Form1.resources
+D:\A_Code\B_Git\GIT\DesignPatterns\objectoriented\ObjectOriented\obj\Debug\ObjectOriented.Properties.Resources.resources
+D:\A_Code\B_Git\GIT\DesignPatterns\objectoriented\ObjectOriented\obj\Debug\ObjectOriented.csproj.GenerateResource.cache
+D:\A_Code\B_Git\GIT\DesignPatterns\objectoriented\ObjectOriented\obj\Debug\ObjectOriented.csproj.CoreCompileInputs.cache
+D:\A_Code\B_Git\GIT\DesignPatterns\objectoriented\ObjectOriented\obj\Debug\ObjectOriented.exe
+D:\A_Code\B_Git\GIT\DesignPatterns\objectoriented\ObjectOriented\obj\Debug\ObjectOriented.pdb
