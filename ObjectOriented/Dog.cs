@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace ObjectOriented
 {
-    class Cat:Animal
+    class Dog:Animal
     {
         //子类构造方法需要调用父类同样参数类型的构造方法，用base关键字代表父类
-        public Cat() : base()
+        public Dog() : base()
         { }
 
-        public Cat(string name) : base(name)
+        public Dog(string name) : base(name)
         { }
 
         public string Shout()
@@ -20,7 +20,7 @@ namespace ObjectOriented
             string result = "";
             for (int i = 0; i < shoutNum; i++)
             {
-                result += "喵";
+                result += "汪";
             }
             return "我的名字叫" + name + result;
         }

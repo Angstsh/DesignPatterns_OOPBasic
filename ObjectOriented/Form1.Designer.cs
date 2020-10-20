@@ -37,7 +37,7 @@
             this.btnCatShout.Name = "btnCatShout";
             this.btnCatShout.Size = new System.Drawing.Size(99, 35);
             this.btnCatShout.TabIndex = 0;
-            this.btnCatShout.Text = "猫叫";
+            this.btnCatShout.Text = "狗叫";
             this.btnCatShout.UseVisualStyleBackColor = true;
             this.btnCatShout.Click += new System.EventHandler(this.btnCatShout_Click);
             // 

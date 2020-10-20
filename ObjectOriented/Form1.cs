@@ -19,9 +19,9 @@ namespace ObjectOriented
 
         private void btnCatShout_Click(object sender, EventArgs e)
         {
-            Cat cat = new Cat("小咪");
-            cat.ShoutNum = 5;
-            MessageBox.Show(cat.Shout());
+            Dog dog = new Dog("大黄");
+            dog.ShoutNum = 4;
+            MessageBox.Show(dog.Shout());
         }
     }
 }
