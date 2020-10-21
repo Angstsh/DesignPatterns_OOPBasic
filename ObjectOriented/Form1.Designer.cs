@@ -29,23 +29,58 @@
         private void InitializeComponent()
         {
             this.btnCatShout = new System.Windows.Forms.Button();
+            this.btnDogshout = new System.Windows.Forms.Button();
+            this.btnSignup = new System.Windows.Forms.Button();
+            this.btnMatch = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnCatShout
             // 
-            this.btnCatShout.Location = new System.Drawing.Point(331, 117);
+            this.btnCatShout.Location = new System.Drawing.Point(74, 35);
             this.btnCatShout.Name = "btnCatShout";
             this.btnCatShout.Size = new System.Drawing.Size(99, 35);
             this.btnCatShout.TabIndex = 0;
-            this.btnCatShout.Text = "狗叫";
+            this.btnCatShout.Text = "猫叫";
             this.btnCatShout.UseVisualStyleBackColor = true;
             this.btnCatShout.Click += new System.EventHandler(this.btnCatShout_Click);
+            // 
+            // btnDogshout
+            // 
+            this.btnDogshout.Location = new System.Drawing.Point(74, 76);
+            this.btnDogshout.Name = "btnDogshout";
+            this.btnDogshout.Size = new System.Drawing.Size(99, 32);
+            this.btnDogshout.TabIndex = 1;
+            this.btnDogshout.Text = "狗叫";
+            this.btnDogshout.UseVisualStyleBackColor = true;
+            // 
+            // btnSignup
+            // 
+            this.btnSignup.Location = new System.Drawing.Point(74, 114);
+            this.btnSignup.Name = "btnSignup";
+            this.btnSignup.Size = new System.Drawing.Size(99, 34);
+            this.btnSignup.TabIndex = 2;
+            this.btnSignup.Text = "动物报名";
+            this.btnSignup.UseVisualStyleBackColor = true;
+            this.btnSignup.Click += new System.EventHandler(this.btnSignup_Click);
+            // 
+            // btnMatch
+            // 
+            this.btnMatch.Location = new System.Drawing.Point(74, 154);
+            this.btnMatch.Name = "btnMatch";
+            this.btnMatch.Size = new System.Drawing.Size(99, 36);
+            this.btnMatch.TabIndex = 3;
+            this.btnMatch.Text = "叫声比赛";
+            this.btnMatch.UseVisualStyleBackColor = true;
+            this.btnMatch.Click += new System.EventHandler(this.btnMatch_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnMatch);
+            this.Controls.Add(this.btnSignup);
+            this.Controls.Add(this.btnDogshout);
             this.Controls.Add(this.btnCatShout);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -56,6 +91,9 @@
         #endregion
 
         private System.Windows.Forms.Button btnCatShout;
+        private System.Windows.Forms.Button btnDogshout;
+        private System.Windows.Forms.Button btnSignup;
+        private System.Windows.Forms.Button btnMatch;
     }
 }
 

@@ -30,5 +30,11 @@ namespace ObjectOriented
                 shoutNum = value;
             }
         }
+
+        //提供动物叫的虚方法，供派生类重写
+        public virtual string Shout()
+        {
+            return "";
+        }
     }
 }

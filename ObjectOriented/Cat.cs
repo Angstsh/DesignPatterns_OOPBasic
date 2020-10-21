@@ -15,7 +15,7 @@ namespace ObjectOriented
         public Cat(string name) : base(name)
         { }
 
-        public string Shout()
+        public override string Shout()
         {
             string result = "";
             for (int i = 0; i < shoutNum; i++)
