@@ -6,18 +6,18 @@ using System.Threading.Tasks;
 
 namespace ObjectOriented
 {
-    class Dog:Animal
+    class Monkey:Animal
     {
         //子类构造方法需要调用父类同样参数类型的构造方法，用base关键字代表父类
-        public Dog() : base()
+        public Monkey() : base()
         { }
 
-        public Dog(string name) : base(name)
+        public Monkey(string name) : base(name)
         { }
 
         protected override string getShoutSound()
         {
-            return "汪";
+            return "吱";
         }
     }
 }

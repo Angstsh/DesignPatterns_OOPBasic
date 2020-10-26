@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ObjectOriented
 {
-    class Animal
+    abstract class Animal
     {
         protected string name = "";
         public Animal(string name)
@@ -31,10 +31,17 @@ namespace ObjectOriented
             }
         }
 
-        //提供动物叫的虚方法，供派生类重写
-        public virtual string Shout()
+        public string Shout()
         {
-            return "";
+            string result = "";
+            for (int i = 0; i < shoutNum; i++)
+            {
+                result += getShoutSound() + ", ";
+            }
+            return "我的名字叫" + name + " " + result;
         }
+
+        //抽象方法没有方法体
+        protected abstract string getShoutSound();
     }
 }

@@ -32,6 +32,7 @@
             this.btnDogshout = new System.Windows.Forms.Button();
             this.btnSignup = new System.Windows.Forms.Button();
             this.btnMatch = new System.Windows.Forms.Button();
+            this.btnChange = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnCatShout
@@ -73,11 +74,22 @@
             this.btnMatch.UseVisualStyleBackColor = true;
             this.btnMatch.Click += new System.EventHandler(this.btnMatch_Click);
             // 
+            // btnChange
+            // 
+            this.btnChange.Location = new System.Drawing.Point(74, 196);
+            this.btnChange.Name = "btnChange";
+            this.btnChange.Size = new System.Drawing.Size(99, 30);
+            this.btnChange.TabIndex = 4;
+            this.btnChange.Text = "变出东西";
+            this.btnChange.UseVisualStyleBackColor = true;
+            this.btnChange.Click += new System.EventHandler(this.btnChange_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnChange);
             this.Controls.Add(this.btnMatch);
             this.Controls.Add(this.btnSignup);
             this.Controls.Add(this.btnDogshout);
@@ -94,6 +106,7 @@
         private System.Windows.Forms.Button btnDogshout;
         private System.Windows.Forms.Button btnSignup;
         private System.Windows.Forms.Button btnMatch;
+        private System.Windows.Forms.Button btnChange;
     }
 }
 

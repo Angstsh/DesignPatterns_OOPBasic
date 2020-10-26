@@ -44,5 +44,19 @@ namespace ObjectOriented
                 MessageBox.Show(item.Shout());
             }
         }
+
+        private void btnChange_Click(object sender, EventArgs e)
+        {
+            MachineCat mcat = new MachineCat("叮当");
+            StoneMonkey wukong = new StoneMonkey("孙悟空");
+
+            IChange[] array = new IChange[2];
+            array[0] = mcat;
+            array[1] = wukong;
+
+            //利用多态性，实现不同的ChangeThing
+            MessageBox.Show(array[0].ChangeThing("各种各样的东西! "));
+            MessageBox.Show(array[1].ChangeThing("各种各样的东西! "));
+        }
     }
 }
